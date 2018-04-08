@@ -1,0 +1,176 @@
+/* -------------------------------------- css reset ----------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ---------------------------------------------- css reset ends here ------------------------------------------*/
+.language{
+    background-color:red;    /*Remove*/
+}
+.top-menu{
+    background-color:green;   /*Remove*/
+}
+.shopping-cart{
+    background-color:yellow;  /*Remove*/
+}
+.header-bottom-border{
+margin-top:1px;
+border-top:1px solid black;
+height:4px;
+border-bottom:1px solid black;
+margin-bottom:1px;
+}
+.slider>img{
+    width:100%;
+}
+div .my-menu{
+    border:1px solid black;
+}
+.menu-top-design{
+    height:4px;
+    background-color:#005DBA;
+}
+.navbar-default{
+    background-color:#008FD3;
+    border-radius:0px;
+    margin-bottom:0px;
+    border:none;
+
+}
+.my-menu .navbar-nav li{
+    /* border-right:1px solid black; */
+}
+.my-menu .navbar-nav li:last-of-type{
+    /* border-right:none; */
+}
+.my-menu .navbar-nav li a {
+    color:white;
+}
+
+/* ---------------------------------------------- Header reset ends here ------------------------------------------*/
+/* ---------------------------------------------- main body starts here  ------------------------------------------*/
+.main-body{
+    border-top:1px solid black;
+    margin-top:2px;
+    border-bottom:3px solid #6A80A5;
+}
+.main-body>div{
+    margin-bottom:6px;
+}
+/* ---------------------------------------------- main body ends here  ------------------------------------------*/
+/* ---------------------------------------------- side bar starts here ------------------------------------------*/
+#side-bar-content{
+    border: 1px solid #6A80A5;
+    margin-top:10px;
+}
+#categories-top-design{
+    height:4px;
+    background-color: #3BB129;
+}
+#categories-list-items{
+    background-color:#89E169;
+}
+#special{
+    margin-top:25px;
+}
+#special-top-design{
+    height:4px;
+    background-color: #22A1E6;
+}
+#special-list-items{
+    background-color:#6FE4F8;
+}
+
+/* ---------------------------------------------- side bar ends here ------------------------------------------*/
+/* ---------------------------------------------- products starts here  ------------------------------------------*/
+.product{
+    position:relative;
+    border: 1px solid #6A80A5;
+    margin-top:10px;
+}
+.image, .description{
+    height:80px; /*remove */
+    width:80px; /*remove */
+    background-color:red; /*remove */
+    margin:4px; /*correct*/
+    border: 1px solid #6A80A5;
+    border-radius:2px;
+}
+.description{
+    position:absolute;
+    width:120px;
+    background-color:pink; /*pink*/
+    top:0px;
+    right:0px;
+    border:none;
+    border-radius:0;
+}
+.buttons{
+    margin:4px;
+    border: 1px solid #6A80A5;
+    border-radius:2px;
+    position:relative;
+}
+.details, .add-to-cart{
+    height:8px;
+    margin:2px;
+    width:50%;
+    background-color:#3064C9;
+
+}
+.add-to-cart{
+    background-color:#1B930D;
+    right:0;
+    position:absolute;
+    top:0;
+}
+
+/* ---------------------------------------------- products ends here  ------------------------------------------*/
+/* ---------------------------------------------- footer starts here ------------------------------------------*/
+
+#footer{
+    background-color:cyan; /*remove*/
+    margin-top:10px;
+}
+/* ---------------------------------------------- footer ends here ------------------------------------------*/
