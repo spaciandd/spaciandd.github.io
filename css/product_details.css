@@ -352,6 +352,9 @@ input[type=radio].with-font:hover::before{
     #header .header-bottom .menu{
         text-align: center;
     }
+    #header .header-bottom .navbar-header{
+        padding-bottom: 10px;
+    }
     #footer .footer-bottom{
         line-height: 5vh;
         margin: 0;

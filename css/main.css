@@ -300,6 +300,9 @@ a:hover{
     #header .header-bottom .menu{
         text-align: center;
     }
+    #header .header-bottom .navbar-header{
+        padding-bottom: 10px;
+    }
     #body .hero-area .jumbotron{
         text-align: center;
     }
