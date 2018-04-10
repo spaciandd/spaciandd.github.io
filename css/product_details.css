@@ -38,9 +38,10 @@ a:hover{
 }
 #header .header-menu i{
     margin-left: 10px;
+    transition: all 0.3s;
 }
 #header .header-menu i:hover{
-    color: #1B2529;
+    transform: scale(1.3);
 }
 #header .header-bottom{
     background-color: #22313F;
@@ -287,6 +288,11 @@ input[type=radio].with-font:hover::before{
 }
 .chevron-circle i{
   font-size: 4em;
+  transition: all 0.3s;
+}
+.chevron-circle i:hover{
+  transform: scale(1.3);
+  text-shadow: 1px 1px 5px #1B2529;
 }
 /*CHEVRON CIRCLE ENDS*/
 
