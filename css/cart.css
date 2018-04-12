@@ -126,6 +126,14 @@ a:hover{
 
 /* PRODUCT AREA STARTS */
 
+.product-table .table th, .product-table .table td{
+    text-align: center;
+    vertical-align: middle;
+}
+.product-table .table tbody tr td select{
+    padding: 10px 15px;
+}
+
 /* PRODUCT AREA ENDS */
 /* BODY ENDS */
 
@@ -199,29 +207,28 @@ a:hover{
 
 /*MEDIA QUERY STARTS*/
 /* pull-right on all except xs devices */
-@media (max-width: 992px) {
-    .product-detail{
-        text-align: center;
-    }
-    .product-detail h1{
-        font-size: 2em;
-    }
-    .product-detail p{
-        font-size: 1em;
-    }
-    .product-detail .form-inline{
-        margin-bottom: 20px;
-        display: block !important;
-    }
-}
-
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .pull-right-sm {
         float: right;
     }
     .pull-left-sm {
         float: left;
     }
+}
+
+@media (max-width: 992px) {
+    .buttons div:nth-child(2) button{
+        margin-top: 20px;
+    }
+    .buttons div:nth-child(2) button:nth-child(1){
+        margin-left: 0 !important;
+    }
+    .buttons, .total-carts{
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
     #header .header-bottom .search input{
         border-radius: 20px;
         width: 400px;
@@ -266,6 +273,13 @@ a:hover{
 
     input[type=radio].with-font::before{
         padding: 8px 15px;
+    }
+
+    .buttons div:nth-child(1) button{
+        margin-top: 20px;
+    }
+    .buttons button{
+        margin-left: 0 !important;
     }
 
 }
